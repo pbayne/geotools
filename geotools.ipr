@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<project version="4" relativePaths="false"> 
+  <component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="17." jdk-15="true"/>  
+  <component name="CodeStyleManager"> 
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true"/>  
+    <option name="CODE_STYLE_SCHEME" value=""/> 
+  </component>  
+  <component name="libraryTable"/>  
+  <component name="CompilerConfiguration"> 
+    <option name="DEFAULT_COMPILER" value="Javac"/>  
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false"/>  
+    <!--
+    <wildcardResourcePatterns>
+      <entry name="${wildcardResourcePattern}"/>
+    </wildcardResourcePatterns>
+    -->  
+    <wildcardResourcePatterns>
+      <entry name="!?*.java"/>
+    </wildcardResourcePatterns>
+  </component>  
+  <component name="JavacSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/>  
+    <option name="USE_GENERICS_COMPILER" value="false"/> 
+  </component>  
+  <component name="JikesSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
+    <option name="IS_INCREMENTAL_MODE" value="false"/>  
+    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
+  </component>  
+  <component name="AntConfiguration"> 
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
+    <option name="FILTER_TARGETS" value="false"/> 
+  </component>  
+  <component name="JavadocGenerationManager"> 
+    <option name="OUTPUT_DIRECTORY"/>  
+    <option name="OPTION_SCOPE" value="protected"/>  
+    <option name="OPTION_HIERARCHY" value="false"/>  
+    <option name="OPTION_NAVIGATOR" value="false"/>  
+    <option name="OPTION_INDEX" value="false"/>  
+    <option name="OPTION_SEPARATE_INDEX" value="false"/>  
+    <option name="OPTION_USE_1_1" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false"/>  
+    <option name="OPTION_DEPRECATED_LIST" value="false"/>  
+    <option name="OTHER_OPTIONS"/>  
+    <option name="HEAP_SIZE"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/> 
+  </component>  
+  <component name="JUnitProjectSettings"> 
+    <option name="TEST_RUNNER" value="UI"/> 
+  </component>  
+  <component name="EntryPointsManager"> 
+    <entry_points/> 
+  </component>  
+  <component name="DataSourceManager"/>  
+  <component name="ExportToHTMLSettings"> 
+    <option name="PRINT_LINE_NUMBERS" value="false"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/>  
+    <option name="OUTPUT_DIRECTORY"/> 
+  </component>  
+  <component name="ImportConfiguration"> 
+    <option name="VENDOR"/>  
+    <option name="RELEASE_TAG"/>  
+    <option name="LOG_MESSAGE"/>  
+    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
+  </component>  
+  <component name="ProjectModuleManager"> 
+    <modules> 
+      <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
+      <module filepath="$PROJECT_DIR$/geotools.iml"/>
+      <module filepath="$PROJECT_DIR$/build/maven/jjtree-javacc/jjtree-javacc.iml"/>
+      <module filepath="$PROJECT_DIR$/build/maven/xmlcodegen/xmlcodegen.iml"/>
+      <module filepath="$PROJECT_DIR$/build/maven/maven.iml"/>
+      <module filepath="$PROJECT_DIR$/build/build.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/opengis/gt-opengis.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/sample-data/gt-sample-data.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/metadata/gt-metadata.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/referencing/gt-referencing.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/coverage/gt-coverage.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/main/gt-main.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/xml/gt-xml.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/cql/gt-cql.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/render/gt-render.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/jdbc/gt-jdbc.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/http/gt-http.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/library/library.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/org.w3.xlink/org.w3.xlink.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.ows/net.opengis.ows.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.fes/net.opengis.fes.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.wfs/net.opengis.wfs.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.wps/net.opengis.wps.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.wcs/net.opengis.wcs.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.csw/net.opengis.csw.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/net.opengis.wmts/net.opengis.wmts.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/ogc/ogc.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/arcgrid/gt-arcgrid.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/charts/gt-charts.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/coverage-multidim/coverage-api/gt-coverage-api.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/coverage-multidim/grib/gt-grib.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/coverage-multidim/netcdf/gt-netcdf.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/coverage-multidim/gt-coverage-multidim.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/csv/gt-csv.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/epsg-extension/gt-epsg-extension.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/epsg-hsql/gt-epsg-hsql.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/epsg-postgresql/gt-epsg-postgresql.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/epsg-wkt/gt-epsg-wkt.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/feature-pregeneralized/gt-feature-pregeneralized.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/geopkg/gt-geopkg.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/geotiff/gt-geotiff.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/grassraster/gt-grassraster.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/http-commons/gt-http-commons.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/image/gt-image.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/imagemosaic/gt-imagemosaic.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/imageio-ext-gdal/gt-imageio-ext-gdal.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/imagepyramid/gt-imagepyramid.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-databricks/gt-jdbc-databricks.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-h2/gt-jdbc-h2.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-oracle/gt-jdbc-oracle.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-postgis/gt-jdbc-postgis.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-db2/gt-jdbc-db2.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-mysql/gt-jdbc-mysql.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-sqlserver/gt-jdbc-sqlserver.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-teradata/gt-jdbc-teradata.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/jdbc-hana/gt-jdbc-hana.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jdbc/gt-jdbc.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/jp2k/gt-jp2k.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/mongodb/gt-mongodb.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/property/gt-property.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/shapefile/gt-shapefile.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/svg/gt-svg.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/plugin/plugin.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/app-schema/app-schema/gt-app-schema.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/app-schema/app-schema-resolver/gt-app-schema-resolver.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/app-schema/sample-data-access/gt-sample-data-access.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/app-schema/app-schema.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/brewer/gt-brewer.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/complex/gt-complex.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/graph/gt-graph.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/grid/gt-grid.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/mbstyle/gt-mbstyle.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/tile-client/gt-tile-client.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/transform/gt-transform.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/wms/gt-wms.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/wmts/gt-wmts.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-core/gt-xsd-core.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-gml2/gt-xsd-gml2.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-gml3/gt-xsd-gml3.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-filter/gt-xsd-filter.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-fes/gt-xsd-fes.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-sld/gt-xsd-sld.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-kml/gt-xsd-kml.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-ows/gt-xsd-ows.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-wfs/gt-xsd-wfs.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-wcs/gt-xsd-wcs.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-wps/gt-xsd-wps.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-wms/gt-xsd-wms.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-csw/gt-xsd-csw.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd-wmts/gt-xsd-wmts.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/xsd/xsd.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/ysld/gt-ysld.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/extension/extension.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/vpf/gt-vpf.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/swing/gt-swing.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/process/gt-process.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/process-geometry/gt-process-geometry.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/process-raster/gt-process-raster.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/process-feature/gt-process-feature.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/geojsonstore/gt-geojsondatastore.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/geojson/gt-geojson.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/mbtiles/gt-mbtiles.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/gml-geometry-streaming/gt-gml-geometry-streaming.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/wfs-ng/gt-wfs-ng.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/ogr/ogr-core/gt-ogr-core.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/ogr/ogr-jni/gt-ogr-jni.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/ogr/gt-ogr.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/postgis-raster/gt-postgis-raster.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/ogcapi-client/gt-ogcapi-client.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/tpk/gt-tpk.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/cql-json/gt-cql-json.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/unsupported/unsupported.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/modules.iml"/>
+      <module filepath="$PROJECT_DIR$/release/gt-release.iml"/>
+    </modules> 
+  </component>  
+  <UsedPathMacros> 
+    <!--<macro name="cargo"></macro>--> 
+  </UsedPathMacros> 
+</project>

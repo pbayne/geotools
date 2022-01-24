@@ -49,6 +49,7 @@
   </developers>
 
   <modules>
+    <module>jdbc-databricks</module>
     <module>jdbc-h2</module>
     <module>jdbc-oracle</module>
     <module>jdbc-postgis</module>

@@ -116,13 +116,13 @@
     <dependency>
       <groupId>com.miglayout</groupId>
       <artifactId>miglayout</artifactId>
-      <version>3.7</version>
+      <version>3.7.4</version>
       <classifier>swing</classifier>
     </dependency>
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-swing-junit</artifactId>
-      <version>3.8.0</version>
+      <version>3.17.1</version>
       <scope>test</scope>
     </dependency>
 
